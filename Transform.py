@@ -2,7 +2,7 @@ import pandas as pd
 
 # === PASO 1: CARGAR EL ARCHIVO CSV ===
 # Reemplaza el nombre del archivo con el tuyo real
-archivo = 'capufe_datos.csv'
+archivo = 'datos.csv'
 df = pd.read_csv(archivo)
 
 # === PASO 2: CONVERTIR MES A NÚMERO ===
